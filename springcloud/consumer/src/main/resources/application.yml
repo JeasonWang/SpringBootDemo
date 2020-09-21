@@ -1,9 +1,0 @@
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:1111/eureka
-server:
-  port: 1115
-spring:
-  application:
-    name: consumeer
