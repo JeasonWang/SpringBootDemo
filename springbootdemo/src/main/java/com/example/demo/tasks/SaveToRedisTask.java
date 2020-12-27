@@ -15,12 +15,12 @@ public class SaveToRedisTask {
     @Autowired
     SecKillService secKillService;
 
-    @Scheduled(cron = "0 30 * * * *")
+    //@Scheduled(cron = "0 30 * * * *")
     public void saveToRedis(){
         secKillService.saveToRedis();
     }
 
-    @Scheduled(cron = "0 30 * * * *")
+    //@Scheduled(cron = "0 30 * * * *")
     public void clearRedis(){
         secKillService.clearRedis();
     }
